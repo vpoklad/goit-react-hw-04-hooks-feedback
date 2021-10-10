@@ -1,0 +1,27 @@
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+}
+
+.good {
+  composes: button;
+  background-color: chartreuse;
+}
+
+.neutral {
+  composes: button;
+  background-color: #d4d0d0;
+}
+
+.bad {
+  composes: button;
+  background-color: #ac3030;
+}
